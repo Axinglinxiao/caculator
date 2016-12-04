@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import "style.css"
+    </style>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+</head>
+<body>
+    <table align="center" height="500px" width="100px" style=" border-radius: 10px;padding:5px;">
+        <caption class="a">By:Axing</caption>
+        <colgroup span="5"></colgroup>
+        <tr>
+            <td colspan="5">
+                <input type="text" id="number" class="b">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" id="1" onclick="onclicknum(1)" class="a"></td>
+            <td><input type="button" value="2" id="2" onclick="onclicknum(2)" class="a"></td>
+            <td><input type="button" value="3" id="3" onclick="onclicknum(3)" class="a"></td>
+            <td><input type="button" value="+" id="add" onclick="onclicknum('+')" class="a"></td>
+            <td><input type="button" value="*" id="mul" onclick="onclicknum('*')" class="a"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" id="4" class="a"></td>
+            <td><input type="button" value="5" id="5" onclick="onclicknum(5)" class="a"></td>
+            <td><input type="button" value="6" id="6" onclick="onclicknum(6)" class="a"></td>
+            <td><input type="button" value="-" id="sub" onclick="onclicknum('-')" class="a"></td>
+            <td><input type="button" value="/" id="divison" onclick="onclicknum('/')" class="a"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" id="7" onclick="onclicknum(7)" class="a"></td>
+            <td><input type="button" value="8" id="8" onclick="onclicknum(8)" class="a"></td>
+            <td><input type="button" value="9" id="9" onclick="onclicknum(9)" class="a"></td>
+            <td><input type="button" value="." id="." onclick="onclicknum('.')" class="a"></td>
+            <td ><input type="button" value="DEL" id="clear" onclick="onclickclear()" class="a"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" id="0" onclick="onclicknum(0)" class="a"></td>
+            <td colspan="2"><input type="button" value="return" id="return" onclick="onclicknum()" class="bottom"></td>
+            //return功能还未实现
+            <td colspan="2"><input type="button" value="=" id="result" onclick="onclickresult()" class="bottom"></td>
+        </tr>
+    </table>
+</body>
+<script type="text/javascript" async src="caculate.js"></script>
+</html>
