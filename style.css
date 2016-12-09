@@ -6,7 +6,7 @@ body{
 }
 caption.a{
     font-size: 20px;
-    font-family: Comic sans MS;
+    font-family: "Comic sans MS";
     caption-side: bottom;
     color: deeppink;
 }
@@ -38,4 +38,5 @@ input.b{
     border-color: aqua;
     font-size: 50px;
     color: hotpink;
+    text-align: right;
 }
